@@ -1,7 +1,6 @@
 import {ThemeProvider, createTheme} from '@mui/material/styles';
 import {CssBaseline} from '@mui/material';
 import DrawerAppBar from './components/DrawerAppBar';
-import Home from './components/Home';
 import About from './components/About';
 import Works from './components/Works';
 import Certificates from './components/Certificates';
@@ -21,7 +20,6 @@ export default function App() {
 				<DrawerAppBar />
 			</header>
 			<main>
-				<Home />
 				<About />
 				<Works />
 				<Certificates />
