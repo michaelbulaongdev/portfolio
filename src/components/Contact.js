@@ -62,7 +62,7 @@ export default function Contact() {
 				<Link
 					sx={{fontSize: '0.8rem'}}
 					target='_blank'
-					href='https://github.com/michaelbulaongdev/portfolio'
+					href='https://github.com/michaelbulaongdev/portfolio-vercel'
 					underline='hover'>
 					react + mui | gh-repo: michaelbulaongdev/portfolio
 				</Link>
