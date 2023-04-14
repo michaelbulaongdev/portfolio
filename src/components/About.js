@@ -8,12 +8,9 @@ export default function About() {
 			<Spacer id='About' />
 			<Container maxWidth='md' align='center'>
 				<Box>
-					<Typography mb={3} variant='h3'>
-						About Me
-					</Typography>
-					<Typography variant='body1' maxWidth={700}>
-						"Learning is a never ending quest so I consider myself a student of
-						this enormous university called 'life'."
+					<Typography className='max-w-lg italic' variant='h6'>
+						"For me, learning is a never ending quest; therefore, I consider
+						myself a student of this university called 'life'."
 					</Typography>
 				</Box>
 				<Box component='img' src={MBLogo} alt='MB logo' width={250} p={5} />
