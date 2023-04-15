@@ -31,7 +31,6 @@ export default function About() {
 					<Grid item xs={12} md={6}>
 						<Box
 							component='img'
-							// src='https://i.imgur.com/z33vWH4.jpeg' //replaced with local import
 							src={MBProfilePic}
 							alt="Mike's profile picture"
 							width={250}
@@ -62,7 +61,7 @@ export default function About() {
 			<Spacer />
 			<Container maxWidth='md' align='center'>
 				<Box>
-					<Typography className='max-w-lg italic' variant='h6'>
+					<Typography className='max-w-sm italic' variant='h6'>
 						"For me, learning is a never ending quest; therefore, I consider
 						myself a student of this university called 'life'."
 					</Typography>

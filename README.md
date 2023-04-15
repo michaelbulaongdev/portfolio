@@ -1,6 +1,6 @@
 # Create React App
 
-This project was created using Create React App and deployed to Vercel.
+This project was created using Create React App with Material UI and Tailwind CSS, and deployed via Vercel.
 
 ## Deploy Your Own
 
