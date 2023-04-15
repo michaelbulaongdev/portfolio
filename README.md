@@ -1,6 +1,6 @@
 # Create React App
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This project was created using Create React App and deployed to Vercel.
 
 ## Deploy Your Own
 
