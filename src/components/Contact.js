@@ -29,7 +29,7 @@ export default function Contact() {
 					}}>
 					<IconButton
 						target='_blank'
-						href='mailto:michaelbulaongdev@gmail.com'
+						href='mailto:contact@mbulaong.dev'
 						aria-label='mail'
 						size='large'>
 						<EmailIcon />
