@@ -17,3 +17,12 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
 }
+
+.tools-logo {
+	cursor: pointer;
+	transition: ease-in-out 0.2s;
+}
+
+.tools-logo:hover {
+	filter: drop-shadow(0 0 10px white);
+}

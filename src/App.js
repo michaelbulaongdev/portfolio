@@ -4,6 +4,7 @@ import DrawerAppBar from './components/DrawerAppBar';
 import About from './components/About';
 import Works from './components/Works';
 import Certificates from './components/Certificates';
+import Tools from './components/Tools';
 import Contact from './components/Contact';
 
 const darkTheme = createTheme({
@@ -23,6 +24,7 @@ export default function App() {
 				<About />
 				<Works />
 				<Certificates />
+				<Tools />
 				<Contact />
 			</main>
 		</ThemeProvider>
