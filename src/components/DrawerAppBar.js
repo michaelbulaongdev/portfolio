@@ -21,7 +21,7 @@ export default function DrawerAppBar(props) {
 	const [mobileOpen, setMobileOpen] = useState(false);
 
 	const drawerWidth = 200;
-	const navItems = ['About', 'Works', 'Certificates', 'Tools', 'Contact'];
+	const navItems = ['About', 'Works', 'Tools', 'Certificates', 'Contact'];
 
 	const handleDrawerToggle = () => {
 		setMobileOpen((prevState) => !prevState);

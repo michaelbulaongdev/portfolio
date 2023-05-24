@@ -23,8 +23,8 @@ export default function App() {
 			<main>
 				<About />
 				<Works />
-				<Certificates />
 				<Tools />
+				<Certificates />
 				<Contact />
 			</main>
 		</ThemeProvider>
