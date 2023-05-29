@@ -27,7 +27,9 @@ export default function Certificates() {
 		<section>
 			<Spacer id='Certificates' />
 			<Container maxWidth='sm' align='center'>
-				<Typography variant='h3'>My Certificates</Typography>
+				<Typography mb={3} variant='h3'>
+					My Certificates
+				</Typography>
 				<List>
 					{listCert.map((item) => (
 						<Accordion
