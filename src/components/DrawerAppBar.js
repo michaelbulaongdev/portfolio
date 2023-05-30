@@ -3,6 +3,7 @@ import {
 	AppBar,
 	Box,
 	Button,
+	Container,
 	Divider,
 	Drawer,
 	IconButton,
@@ -56,29 +57,31 @@ export default function DrawerAppBar(props) {
 		<nav>
 			<Box sx={{display: 'flex'}}>
 				<AppBar component='nav'>
-					<Toolbar>
-						<IconButton
-							color='inherit'
-							aria-label='open drawer'
-							edge='start'
-							onClick={handleDrawerToggle}
-							sx={{mr: 2, display: {sm: 'none'}}}>
-							<MenuIcon />
-						</IconButton>
-						<Typography
-							variant='h6'
-							component='div'
-							sx={{flexGrow: 1, display: {xs: 'none', sm: 'block'}}}>
-							Michael Bulaong
-						</Typography>
-						<Box sx={{display: {xs: 'none', sm: 'block'}}}>
-							{navItems.map((item) => (
-								<Link key={item} to={item} smooth={true} duration={500}>
-									<Button sx={{color: '#fff'}}>{item}</Button>
-								</Link>
-							))}
-						</Box>
-					</Toolbar>
+					<Container>
+						<Toolbar className='max-w-7xl'>
+							<IconButton
+								color='inherit'
+								aria-label='open drawer'
+								edge='start'
+								onClick={handleDrawerToggle}
+								sx={{mr: 2, display: {sm: 'none'}}}>
+								<MenuIcon />
+							</IconButton>
+							<Typography
+								variant='h6'
+								component='div'
+								sx={{flexGrow: 1, display: {xs: 'none', sm: 'block'}}}>
+								Michael Bulaong
+							</Typography>
+							<Box sx={{display: {xs: 'none', sm: 'block'}}}>
+								{navItems.map((item) => (
+									<Link key={item} to={item} smooth={true} duration={500}>
+										<Button sx={{color: '#fff'}}>{item}</Button>
+									</Link>
+								))}
+							</Box>
+						</Toolbar>
+					</Container>
 				</AppBar>
 				<Box component='nav'>
 					<Drawer
