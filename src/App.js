@@ -27,8 +27,8 @@ export default function App() {
 				<Tools />
 				<Certificates />
 				<Contact />
+				<Analytics />
 			</main>
-			<Analytics />
 		</ThemeProvider>
 	);
 }
