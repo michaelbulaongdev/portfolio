@@ -6,7 +6,6 @@ import Works from './components/Works';
 import Certificates from './components/Certificates';
 import Tools from './components/Tools';
 import Contact from './components/Contact';
-import {Analytics} from '@vercel/analytics/react';
 
 const darkTheme = createTheme({
 	palette: {
@@ -28,7 +27,6 @@ export default function App() {
 				<Certificates />
 				<Contact />
 			</main>
-			<Analytics />
 		</ThemeProvider>
 	);
 }
